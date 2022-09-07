@@ -1,0 +1,23 @@
+.calc-result {
+  justify-content: right;
+  color: #fff;
+  background-color: rgb(77, 71, 71);
+  height: 50px;
+  align-items: center;
+  display: flex;
+  padding-right: 10px;
+}
+
+.buttons-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-auto-rows: minmax(60px, auto);
+}
+
+.button {
+  background-color: #b4bebb;
+}
+
+.button:nth-child(4n) {
+  background-color: orange;
+}
