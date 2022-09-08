@@ -27,7 +27,7 @@ class Calculator extends React.PureComponent {
         <div className="calc-result">{next || operation || total || 0}</div>
         <div className="buttons-grid">
           <button type="button" className="button" value="AC" onClick={(e) => this.handleInput(e)}>AC</button>
-          <button type="button" className="button" value="&plusmn;" onClick={(e) => this.handleInput(e)}>&plusmn;</button>
+          <button type="button" className="button" value="+/-" onClick={(e) => this.handleInput(e)}>+/-</button>
           <button type="button" className="button" value="%" onClick={(e) => this.handleInput(e)}>%</button>
           <button type="button" className="button" value="&divide;" onClick={(e) => this.handleInput(e)}>&divide;</button>
           <button type="button" className="button" value="7" onClick={(e) => this.handleInput(e)}>7</button>
