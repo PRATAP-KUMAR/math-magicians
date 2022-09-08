@@ -1,5 +1,5 @@
-import './Calculator.css';
 import React from 'react';
+import './Calculator.css';
 
 class Calculator extends React.PureComponent {
   render() {
