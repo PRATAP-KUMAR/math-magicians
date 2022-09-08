@@ -6,6 +6,7 @@
   align-items: center;
   display: flex;
   padding-right: 10px;
+  font-size: 30px;
 }
 
 .buttons-grid {
@@ -16,8 +17,17 @@
 
 .button {
   background-color: #b4bebb;
+  font-size: 20px;
 }
 
 .button:nth-child(4n) {
   background-color: orange;
+}
+
+.button:hover {
+  background-color: #f45678;
+}
+
+.button:nth-child(4n):hover {
+  background-color: blue;
 }
