@@ -1,3 +1,20 @@
+.calc-container {
+  margin-top: 2vh;
+  display: flex;
+}
+
+.some-math-text {
+  flex: 0.35;
+  font-size: 20px;
+  font-weight: bold;
+  color: blue;
+}
+
+.calc {
+  flex: 0.65;
+  margin-left: 50px;
+}
+
 .calc-result {
   justify-content: right;
   color: #fff;
@@ -6,7 +23,6 @@
   align-items: center;
   display: flex;
   padding-right: 10px;
-  font-size: 30px;
 }
 
 .buttons-grid {
@@ -17,17 +33,8 @@
 
 .button {
   background-color: #b4bebb;
-  font-size: 20px;
 }
 
 .button:nth-child(4n) {
   background-color: orange;
-}
-
-.button:hover {
-  background-color: #f45678;
-}
-
-.button:nth-child(4n):hover {
-  background-color: blue;
 }

@@ -1,8 +1,7 @@
 body {
-  background-color: #456789;
+  background: #000;
 }
 
 #root {
-  margin: 200px;
-  align-items: center;
+  margin: 50px;
 }
