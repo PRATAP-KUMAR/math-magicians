@@ -9,7 +9,7 @@
 
 ## Built With
 
-- React
+- ReactJS
 
 ## Getting Started
 
