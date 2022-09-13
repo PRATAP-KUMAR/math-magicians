@@ -1,12 +1,7 @@
-import React from 'react';
-import Calculator from './components/Calculator';
+import Navbar from './components/Navbar';
 
-class App extends React.PureComponent {
-  render() {
-    return (
-      <Calculator />
-    );
-  }
-}
+const App = () => (
+  <Navbar />
+);
 
 export default App;

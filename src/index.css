@@ -1,8 +1,7 @@
 body {
-  background-color: #456789;
+  background: #000;
 }
 
 #root {
-  margin: 300px;
-  border: 4px solid rgb(145, 129, 129);
+  margin: 50px;
 }
