@@ -21,3 +21,17 @@ test('99x44 +/-', () => {
   obj = { total: 99, next: 44, operation: 'x' };
   expect(calculate(obj, '+/-')).toStrictEqual({ ...obj, next: '-44' });
 });
+
+const mathObj = { total: 23, next: 27, operation: '+' };
+
+describe('Testing the basic calculator functions', () => {
+  test('Return total for +', () => {
+    expect(calculate(mathObj, '=').total).toBe('50');
+  });
+  test('Return null for + -> next', () => {
+    expect(calculate(mathObj, '=').next).toBe(null);
+  });
+  test('Return null for + -> operation', () => {
+    expect(calculate(mathObj, '=').operation).toBe(null);
+  });
+});
