@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavLinks Test test for NavLinks 1`] = `
+<header
+  class="header"
+>
+  <h1>
+    Math Magicians
+  </h1>
+  <nav>
+    <ul>
+      <li>
+        <a
+          href="/"
+        >
+          Home
+        </a>
+      </li>
+      <li>
+        <a
+          href="/Calculator"
+        >
+          Calculator
+        </a>
+      </li>
+      <li>
+        <a
+          href="/Quote"
+        >
+          Quote
+        </a>
+      </li>
+    </ul>
+  </nav>
+</header>
+`;
